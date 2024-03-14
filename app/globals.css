@@ -19,3 +19,12 @@
     --font-size-2xl: 2rem;
   }
 }
+
+@layer components {
+  .input {
+      @apply 
+          bg-transparent pb-4 px-4 outline-none 
+          border-b-[1px] border-b-light-grey
+          focus:border-b-light-green
+  }
+}
