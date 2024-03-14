@@ -17,7 +17,7 @@ module.exports = {
         fontWeight: 500,
       }],
       "2xl": ["var(--font-size-2xl)", {
-        fontWeight: 500,
+        fontWeight: 700,
       }],
     },
     extend: {
