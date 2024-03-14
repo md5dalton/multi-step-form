@@ -7,12 +7,23 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      xs: "var(--font-size-xs)",
-      sm: "var(--font-size-sm)",
-      base: "var(--font-size-base)",
-      "2xl": "var(--font-size-2xl)",
+      xs: ["var(--font-size-xs)", {
+        fontWeight: 500,
+      }],
+      sm: ["var(--font-size-sm)", {
+        fontWeight: 500,
+      }],
+      base: ["var(--font-size-base)", {
+        fontWeight: 500,
+      }],
+      "2xl": ["var(--font-size-2xl)", {
+        fontWeight: 500,
+      }],
     },
     extend: {
+      backgroundImage: {
+        "nav": "var(--bg-nav)"
+      },
       colors: {
         "cool-gray": "hsl(231, 11%, 63%)",
         "light-gray": "hsl(229, 24%, 87%)",
