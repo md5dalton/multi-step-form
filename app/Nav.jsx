@@ -15,6 +15,7 @@ export default () => (
                     border-white border-[1px] rounded-full
                     h-8 w-8 grid place-items-center
                     text-white
+                    transition-colors
                 "
             >{item}</NavLink>}
         />
