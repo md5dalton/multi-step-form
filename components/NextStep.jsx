@@ -9,14 +9,18 @@ export default () => {
 
     const handler = () => {
 
-        router.back() 
-        // push(`/step/${step}`)
+        const page = step >= 4 ? 4 : +step + 1
+
+        router.push(`/step/${page}`)
 
     }
 
     
     return <button 
         onClick={handler}
-        className={step < 2 ? "hidden" : ""
-    }>Next Step</button>
+        className="
+            h-10 px-4 grid place-items-center rounded
+            bg-marine-blue text-white text-sm
+        "
+    >Next Step</button>
 }
