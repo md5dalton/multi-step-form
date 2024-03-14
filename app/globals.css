@@ -7,6 +7,8 @@
   --font-size-sm: .875rem;
   --font-size-base: 1rem;
   --font-size-2xl: 1.5rem;
+
+  --bg-nav: url('/bg/bg-sidebar-mobile.svg')
 }
 
 @media (min-width: 768px) {
