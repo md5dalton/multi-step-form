@@ -21,6 +21,9 @@ module.exports = {
       }],
     },
     extend: {
+      boxShadow: {
+        card: "0px 25px 40px -20px rgba(0, 0, 0, 0.09)"
+      },
       backgroundImage: {
         "nav": "var(--bg-nav)"
       },
