@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     fontSize: {
       xs: ["var(--font-size-xs)", {
-        fontWeight: 500,
+        fontWeight: 400,
       }],
       sm: ["var(--font-size-sm)", {
         fontWeight: 500,
