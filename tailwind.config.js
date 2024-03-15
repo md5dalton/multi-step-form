@@ -11,7 +11,7 @@ module.exports = {
         fontWeight: 400,
       }],
       sm: ["var(--font-size-sm)", {
-        fontWeight: 500,
+        fontWeight: 400,
       }],
       base: ["var(--font-size-base)", {
         fontWeight: 500,
@@ -30,6 +30,7 @@ module.exports = {
       colors: {
         "cool-gray": "hsl(231, 11%, 63%)",
         "light-gray": "hsl(229, 24%, 87%)",
+        "very-light-gray": "#F8F9FF",
         "magnolia": "hsl(217, 100%, 97%)",
         "alabaster": "hsl(231, 100%, 99%)",
         "marine-blue": "hsl(213, 96%, 18%)",
