@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
                             absolute left-1/2 -translate-x-1/2 top-24
                             px-6 py-8 shadow-card
                             bg-white
+                            text-marine-blue
                             rounded-xl
                         "
                     >
