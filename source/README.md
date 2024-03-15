@@ -107,5 +107,5 @@ which in mobile is used in the form's labels and in desktop the same labels use 
 
 However, I noticed that there's some places in the desktop design which use the 12px font size
 
-
+Naming convetion of colors in the design file are different from style guide
 **Have fun building!** 🚀
