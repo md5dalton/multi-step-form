@@ -46,6 +46,13 @@ export default () => (
                     </fieldset>
                 )}
             />
+            <div className="flex items-center justify-center gap-6 capitalize text-sm h-12 bg-very-light-gray rounded-lg">
+                <p>monthly</p>
+                <div className="w-10 h-5 bg-marine-blue grid items-center px-1 rounded-xl">
+                    <div className="h-3 w-3 rounded-full bg-white"></div>
+                </div>
+                <p>yearly</p>
+            </div>
         </form>
     </div>
 )
