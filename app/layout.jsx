@@ -15,8 +15,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className="bg-very-light-gray">
-            <body className={`${font.className} relative pb-24`}>
+        <html lang="en">
+            <body className={`${font.className} bg-very-light-gray relative pb-24`}>
                 <Nav />
                 <main
                     style={{width: "calc(100% - 2rem)"}}
