@@ -20,6 +20,10 @@
   }
 }
 
+label {
+  cursor: pointer;
+}
+
 /* @layer components {
   .input {
       @apply 
